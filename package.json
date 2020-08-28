@@ -1,0 +1,20 @@
+{
+  "name": "flutterbootcampserver",
+  "version": "1.0.0",
+  "description": "The server for the flutter bootcamp 2020 ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index"
+  },
+  "author": "evolvingkid",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "mongoose": "^5.10.1",
+    "uuid": "^8.3.0"
+  }
+}
